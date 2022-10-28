@@ -8,7 +8,7 @@ public class Solution {
         System.out.print("Введите диаметр окружности d: ");
         double diameter = scan.nextDouble();
         double pi = 3.14;
-        double circumference = pi * diameter;       // Расчёт длины окружности L
+        double circumference = pi * diameter;       // Расчёт длины окружности: L = pi * d
         System.out.println("Длина окружности L = " + circumference);
     }
 }
