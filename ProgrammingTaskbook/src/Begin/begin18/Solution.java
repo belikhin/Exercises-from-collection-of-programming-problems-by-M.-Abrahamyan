@@ -20,9 +20,9 @@ public class Solution {
         }
 
         System.out.println("Расчёт:");
-        double lengthAC = Math.abs(pointA - pointC);//Расчёт длины отрезка АС: |A - C|
-        double lengthBC = Math.abs(pointB - pointC);//Расчёт длины отрезка BC: |B - C|
-        double multiplicationACBC = lengthAC * lengthBC;//Расчёт произведения длин отрезков АС и ВС: |A - C| * |B - C|
+        double lengthAC = Math.abs(pointA - pointC);                                                 //Расчёт длины отрезка АС: |A - C|
+        double lengthBC = Math.abs(pointB - pointC);                                                 //Расчёт длины отрезка BC: |B - C|
+        double multiplicationACBC = lengthAC * lengthBC;                                             //Расчёт произведения длин отрезков АС и ВС: |A - C| * |B - C|
         System.out.println("Произведение длин отрезков АС и ВС составляет: " + multiplicationACBC);
     }
 }
