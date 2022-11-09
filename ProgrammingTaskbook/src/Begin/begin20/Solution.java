@@ -15,7 +15,7 @@ public class Solution {
         double pointTwoY2 = scanner.nextDouble();
 
         System.out.println("Расчёт:");
-        double interval = Math.sqrt(Math.pow(pointTwoX2 - pointOneX1, 2) + Math.pow(pointTwoY2 - pointOneY1, 2));
+        double interval = Math.sqrt(Math.pow(pointTwoX2 - pointOneX1, 2) + Math.pow(pointTwoY2 - pointOneY1, 2)); // Расчёт расстояния: sqrt((x2 - x1)^2 + (y2 - y1)^2)
         System.out.println("Расстояние между двумя точками составляет: " + interval);
     }
 }
